@@ -18,10 +18,53 @@ body {
     padding-top: 0;
     padding-left: 30rem;
   }
-  .row {
-    padding-left: 3rem;
-  }
+ 
+ .portfolio-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+ }
+
+ .svc-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+ }
+
+ .btn {
+  margin-top: 30px;
+ }
 }
+
+ .portfolio-boxes div{
+  width: 400px;
+  background-color: #333;
+ }
+
+ .portfolio-boxes p {
+  margin: 10px;
+ }
+
+.svc-boxes p {
+  margin: 10px;
+}
+
+.btn {
+  background-color: #ff6200;
+  border-color: #ff6200;
+}
+
+.svc-boxes div{
+  width: 400px;
+  background-color: #000;
+  border: 1px solid #333;
+  padding: 10px;
+  margin-top: 20px;
+}
+}
+
+
+
 
 
 h1,
@@ -91,6 +134,7 @@ p.lead {
   color: #BD5D38;
 }
 
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -149,6 +193,8 @@ p.lead {
   background-image: url(../img/elewis.png);
 }
 
+
+/*
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -190,3 +236,4 @@ a {
 a:hover, a:focus, a:active {
   color: ##c24e06;
 }
+*/
